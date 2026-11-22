@@ -11,9 +11,9 @@ use them on your own ReCON only.
 ## What it makes
 
 Because DayZ map pictures can't be shared, the examples below use a
-real-world picture from space of Prague, in the Czech Republic that
-Chernarus is modelled on, in place of a game map. It was put through the
-same `satmap -slice` a map's picture goes through.
+real-world satellite picture of the Western United States (the Rockies,
+Great Salt Lake and the Colorado Plateau) in place of a game map. It was
+put through the same `satmap -slice` a map's picture goes through.
 
 ![The whole picture, as satmap writes it to maps/<world>.jpg](docs/sample.jpg)
 
@@ -22,9 +22,8 @@ of the one before it, and the Live Map loads only the tiles in view:
 
 ![Levels 0 to 3: 1, 4, 16 and 64 tiles](docs/tiles.jpg)
 
-<sub>Image: NASA, photographed from the International Space Station
-(ISS023-E-22659), 8 April 2010. Public domain. Cropped to a square and
-scaled down.</sub>
+<sub>Image: NASA GSFC, MODIS Land Rapid Response Team (Jeff Schmaltz),
+1 May 2018. Public domain. Cropped to a square and scaled down.</sub>
 
 ## Getting it
 
