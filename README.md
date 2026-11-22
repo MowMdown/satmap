@@ -8,6 +8,23 @@ The map pictures come from the game's or the map mod's files, so they
 can't be shared: run satmap on your own copy of the game to make them, and
 use them on your own ReCON only.
 
+## What it makes
+
+Because DayZ map pictures can't be shared, the examples below use a
+real-world satellite picture of the Western United States (the Rockies,
+Great Salt Lake and the Colorado Plateau) in place of a game map. It was
+put through the same `satmap -slice` a map's picture goes through.
+
+![The whole picture, as satmap writes it to maps/<world>.jpg](docs/sample.jpg)
+
+It's sliced into tile levels. Each level has twice the columns and rows
+of the one before it, and the Live Map loads only the tiles in view:
+
+![Levels 0 to 3: 1, 4, 16 and 64 tiles](docs/tiles.jpg)
+
+<sub>Image: NASA GSFC, MODIS Land Rapid Response Team (Jeff Schmaltz),
+1 May 2018. Public domain. Cropped to a square and scaled down.</sub>
+
 ## Getting it
 
 Each [release](../../releases) has it ready to run
